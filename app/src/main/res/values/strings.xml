@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+
+    <string name="description">Test your knowledge about Rammstein</string>
+
+    <string name="first_question">1. In which city was Rammstein formed?</string>
+
+    <string name="second_question">2. How many members does Rammstein have?</string>
+
+    <string name="third_question">3. What is the first studio album recorded by Rammstein?</string>
+        <string name="option1_third_question">Herzeleid</string>
+        <string name="option2_third_question">Sehnsucht</string>
+        <string name="option3_third_question">Reise, Reise</string>
+
+    <string name="fourth_question">4. Rammstein is often categorised as: (Check 3 options that apply)</string>
+         <string name="option1_fourth_question">Neue deutsche Härte</string>
+         <string name="option2_fourth_question">Industrial Metal</string>
+         <string name="option3_fourth_question">Hard Rock</string>
+         <string name="option4_fourth_question">Hip Hop</string>
+
+    <string name="fifth_question">5. What is the nickname of Rammstein\'s keyboeardist?</string>
+         <string name="option1_fifth_question">Flake</string>
+         <string name="option2_fifth_question">Doom</string>
+         <string name="option3_fifth_question">Ollie</string>
+
+    <string name="hint">Answer</string>
+    <string name="submitButton">Submit</string>
+</resources>
