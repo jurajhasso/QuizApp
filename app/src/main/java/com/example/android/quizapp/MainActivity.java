@@ -10,6 +10,7 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Toast;
 
+import static android.icu.lang.UCharacter.GraphemeClusterBreak.T;
 import static com.example.android.quizapp.R.id.radio1;
 
 public class MainActivity extends AppCompatActivity {
@@ -55,10 +56,19 @@ public class MainActivity extends AppCompatActivity {
         }
 
         Context context = getApplicationContext();
-        CharSequence text = "You scored " + score + "/5 points!";
+        CharSequence textSuccess = "You scored " + score + "/5 points!";
+        CharSequence textFailure = "You scored " + score + "/5 points, please try harder!";
         int duration = Toast.LENGTH_LONG;
 
-        Toast toast = Toast.makeText(context, text, duration);
+        if (score == 0) {
+            Toast toast = Toast.makeText(context, textFailure, duration);
+            toast.show();
+        }
+
+        else {
+
+        Toast toast = Toast.makeText(context, textSuccess, duration);
         toast.show();
+        }
     }
 }
